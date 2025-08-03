@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">connectgold</string>
+    <string name="title_activity_main">connectgold</string>
+    <string name="package_name">com.connectgold.hybrid</string>
+    <string name="custom_url_scheme">com.connectgold.hybrid</string>
+</resources>
