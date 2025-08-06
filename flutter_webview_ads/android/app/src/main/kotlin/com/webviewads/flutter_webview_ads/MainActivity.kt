@@ -1,4 +1,4 @@
-package com.webviewads.flutter_webview_ads
+package com.connectgold.app
 
 import io.flutter.embedding.android.FlutterActivity
 
