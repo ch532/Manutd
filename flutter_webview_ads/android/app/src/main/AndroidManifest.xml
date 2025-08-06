@@ -20,22 +20,22 @@
         <!-- Google AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-1171216593802007~4173705766"/>
         
         <!-- Start.io App ID -->
         <meta-data
             android:name="com.startapp.sdk.APPLICATION_ID"
-            android:value="YOUR_START_IO_APP_ID" />
+            android:value="205787982" />
             
         <!-- Unity Ads Game ID -->
         <meta-data
             android:name="com.unity3d.ads.APPLICATION_ID"
-            android:value="YOUR_UNITY_GAME_ID" />
+            android:value="5883117" />
             
         <!-- Appodeal App Key -->
         <meta-data
             android:name="com.appodeal.APPLICATION_KEY"
-            android:value="YOUR_APPODEAL_APP_KEY" />
+            android:value="543d15c055aac7e15a71dae4432f7f78befc17eeed095af5" />
         
         <activity
             android:name=".MainActivity"
