@@ -28,26 +28,26 @@ class AdManager {
   // Ad configuration
   final Map<String, String> _adUnitIds = {
     'android': {
-      'admob_banner': 'ca-app-pub-3940256099942544/6300978111', // Test ID
-      'admob_interstitial': 'ca-app-pub-3940256099942544/1033173712', // Test ID
-      'admob_rewarded': 'ca-app-pub-3940256099942544/5224354917', // Test ID
+      'admob_banner': 'ca-app-pub-1171216593802007/8884489855',
+      'admob_interstitial': 'ca-app-pub-1171216593802007/4945244849',
+      'admob_rewarded': 'ca-app-pub-1171216593802007/1435861786',
     },
     'ios': {
-      'admob_banner': 'ca-app-pub-3940256099942544/2934735716', // Test ID
-      'admob_interstitial': 'ca-app-pub-3940256099942544/4411468910', // Test ID
-      'admob_rewarded': 'ca-app-pub-3940256099942544/1712485313', // Test ID
+      'admob_banner': 'ca-app-pub-1171216593802007/8884489855',
+      'admob_interstitial': 'ca-app-pub-1171216593802007/4945244849',
+      'admob_rewarded': 'ca-app-pub-1171216593802007/1435861786',
     },
   };
 
   // Appodeal configuration
-  final String _appodealAppKey = 'YOUR_APPODEAL_APP_KEY'; // Replace with your key
+  final String _appodealAppKey = '543d15c055aac7e15a71dae4432f7f78befc17eeed095af5';
   
   // Unity Ads configuration
-  final String _unityGameId = 'YOUR_UNITY_GAME_ID'; // Replace with your game ID
-  final bool _unityTestMode = true;
+  final String _unityGameId = '5883117';
+  final bool _unityTestMode = false;
   
   // Start.io configuration
-  final String _startioAppId = 'YOUR_STARTIO_APP_ID'; // Replace with your app ID
+  final String _startioAppId = '205787982';
 
   Future<void> initialize() async {
     try {
@@ -242,7 +242,7 @@ class AdManager {
     if (_unityAdsInitialized) {
       try {
         await UnityAds.showVideoAd(
-          placementId: 'Interstitial_Android', // Replace with your placement ID
+          placementId: 'Interstitial_Android',
         );
       } catch (e) {
         debugPrint('Error showing Unity Ads interstitial: $e');
@@ -254,7 +254,7 @@ class AdManager {
     if (_unityAdsInitialized) {
       try {
         await UnityAds.showVideoAd(
-          placementId: 'Rewarded_Android', // Replace with your placement ID
+          placementId: 'Rewarded_Android',
         );
       } catch (e) {
         debugPrint('Error showing Unity Ads rewarded: $e');
