@@ -117,7 +117,7 @@ class _SplashScreenState extends State<SplashScreen>
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
             builder: (context) => const WebViewScreen(
-              initialUrl: 'https://www.google.com',
+              initialUrl: 'https://connectgold.sbs',
             ),
           ),
         );
@@ -153,7 +153,7 @@ class _SplashScreenState extends State<SplashScreen>
               Navigator.of(context).pushReplacement(
                 MaterialPageRoute(
                   builder: (context) => const WebViewScreen(
-                    initialUrl: 'https://www.google.com',
+                    initialUrl: 'https://connectgold.sbs',
                   ),
                 ),
               );
